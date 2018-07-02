@@ -1,4 +1,4 @@
-from .base import *
+from .__init__ import *
 
 def printme():
     "This prints a passed string into this function"
