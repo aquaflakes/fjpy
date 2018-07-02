@@ -1,12 +1,9 @@
-# from __future__ import absolute_import
-
-# import pandas as pd
-# import numpy as np
-
-# from . import tester
+from . import tester
+from . import base
 
 # Also importable from root
 from .tester import printme
+from .base import *
 
 
 __all__ = [s for s in dir() if not s.startswith("_")]
