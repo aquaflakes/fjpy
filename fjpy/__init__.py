@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 
 
-print("..")
-from . import tester
+
+# from . import tester
 
 # Also importable from root
 from .tester import printme
