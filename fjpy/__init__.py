@@ -1,10 +1,10 @@
-from . import tester
 from . import base
+from . import tfcalc
 
 
 # Also importable from root
 # from .tester import printme
-from .base import *
+# from .base import *
 
 
 __all__ = [s for s in dir() if not s.startswith("_")]
