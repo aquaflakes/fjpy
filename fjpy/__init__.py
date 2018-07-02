@@ -1,5 +1,6 @@
-# from . import tester
+from . import tester
 from . import base
+
 
 # Also importable from root
 # from .tester import printme
