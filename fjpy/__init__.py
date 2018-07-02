@@ -2,7 +2,7 @@ from . import tester
 from . import base
 
 # Also importable from root
-# from .tester import printme
+from .tester import printme
 from .base import *
 
 
