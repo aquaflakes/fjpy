@@ -1,4 +1,4 @@
-
+from __future__ import absolute_import
 import pandas as pd
 import numpy as np
 
@@ -6,7 +6,7 @@ __all__ = [s for s in dir() if not s.startswith("_")]
 
 print(__all__)
 
-from __future__ import absolute_import
+
 print("..")
 from . import tester
 
