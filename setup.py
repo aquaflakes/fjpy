@@ -7,6 +7,6 @@ setup(
      description='',
      packages=find_packages(),
      url='https://github.com/aquaflakes/fjpy',
-     install_requires=['pipimport','numpy','ggplot'],
+     install_requires=['pipimport','numpy','ggplot','pandas','SciPy'],
      scripts=['']                  # The name of your scipt, and also the command you'll be using for calling it
 )
