@@ -18,7 +18,7 @@ setup(
     description='An example of a python package from pre-existing code',
     # We will also need a readme eventually (there will be a warning)
     long_description=open('README.md').read(),
-    scripts=['']
+    # scripts=['']
 )
 
 
