@@ -6,8 +6,8 @@ __all__ = [s for s in dir() if not s.startswith("_")]
 
 print(__all__)
 
-# from __future__ import absolute_import
-
+from __future__ import absolute_import
+print("..")
 from . import tester
 
 # Also importable from root
